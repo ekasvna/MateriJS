@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar javascript dari nol</title>
+    <script>
+        //ini adalah penulisan kode javascript di dalam tag <head>
+            console.log("hello Js dari head");
+    </script>
+</head>
+<body>
+    <p id="demo">Tutorial Javascript untuk pemula</p>
+    <a href =""  onclick="alert('yey')">klil disini</a>
+    <button type="button"onklik="klik()"> disini</button>
+    
+    <script>
+        //ini adalah penulisan kode javascript di dalam tag <body>
+            console.log("hello Js dari body");
+            function klik () {
+                document.getElementbyId("demo").innerHTML ="Paragraf changed";
+            }
+    </script>
+</body>
+</html>
